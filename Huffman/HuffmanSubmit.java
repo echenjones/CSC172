@@ -1,9 +1,3 @@
-/* 
- * Elana Chen-Jones
- * Net ID: echenjon
- * Project 2
- */
-
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
