@@ -4,7 +4,7 @@ import java.util.Random;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-public class Project1_final {
+public class Project1 {
 	
 	protected static int count = 0;
 	protected static int max = 0;
