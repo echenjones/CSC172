@@ -1,9 +1,3 @@
-/* 
- * Elana Chen-Jones
- * Net ID: echenjon
- * Project 3
-*/
-
 import java.awt.BasicStroke;
 import java.awt.Canvas;
 import java.awt.Color;
@@ -27,7 +21,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public class StreetMap_final extends Canvas implements ActionListener {
+public class StreetMap extends Canvas implements ActionListener {
 
 	String ID;
 	double latitude, longitude;
@@ -283,7 +277,7 @@ public class StreetMap_final extends Canvas implements ActionListener {
 	}
 	
 	public static void main(String[] args) {
-		StreetMap_final s = new StreetMap_final();
+		StreetMap s = new StreetMap();
 		JFrame frame = new JFrame();
 		JPanel panel = new JPanel();
 		if (args.length > 0) {
